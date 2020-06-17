@@ -1,0 +1,46 @@
+
+.mainNav {
+    margin: 0px; 
+    width: auto; 
+    height: 75px; 
+    border: 2px solid black; 
+    background-color: #173753; 
+    display: flex; 
+    /* justify-content: flex-end;  */
+   
+
+}  
+
+.mainNav ul{
+   
+    list-style-type: none; 
+    display: flex; 
+    /* padding-top: 20px;  */
+    
+   
+   
+}
+
+
+.mainNav ul li{
+    justify-content: flex-end; 
+    padding-top: 20px; 
+    flex-basis: 80px; height: 50px; 
+    
+}
+
+.mainNav ul li a{
+    display: inline; 
+    text-decoration: none; 
+    color: #1D70A2
+}
+
+.mainNav ul li a:hover{
+    color:#2892D7; 
+}
+
+#mainPic{
+   
+    height: 65px; 
+    width: 75px; 
+}
