@@ -1,41 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Jost:wght@100;300&family=Montserrat:wght@100&display=swap');
 
-.mainNav {
-    margin: 0px; 
+.mainNav{
+
+    display: flex; 
+    justify-content: flex-end; 
+    background-color: #173753; 
+    padding-right: 10px; 
+    /* if you do margin here, it would show white space, have to do padding */
+    font-family: 'Monserrat', sans-serif; 
+}
+
+
+.listItems {
     width: auto; 
     height: 75px; 
     border: 2px solid black; 
-    background-color: #173753; 
-    display: flex; 
-    /* justify-content: flex-end;  */
+    background-color: #173753;
+    flex-basis: 80px; height: 50px; 
+    margin-left:auto; 
+/* margin-left auto puts the maximum margin possible to the left of this item, therefore pushing item one(the image) to the beginning of the flex-container */
+ 
+    
    
 
 }  
 
-.mainNav ul{
+.listItems ul{
    
     list-style-type: none; 
     display: flex; 
+    justify-content: flex-end; 
     /* padding-top: 20px;  */
-    
-   
-   
+     
 }
 
 
-.mainNav ul li{
-    justify-content: flex-end; 
+
+.listItems ul li{
     padding-top: 20px; 
+    padding-left: 20px; 
     flex-basis: 80px; height: 50px; 
     
 }
 
-.mainNav ul li a{
+.listItems ul li a{
     display: inline; 
     text-decoration: none; 
     color: #1D70A2
 }
 
-.mainNav ul li a:hover{
+.listItems ul li a:hover{
     color:#2892D7; 
 }
 
@@ -43,4 +57,5 @@
    
     height: 65px; 
     width: 75px; 
+    margin-left: 10px; 
 }
