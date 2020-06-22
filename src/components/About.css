@@ -1,13 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+
+
 *{
     box-sizing: border-box; 
 }
-@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Jost:wght@100;300&family=Montserrat:wght@100&display=swap');
+
+
 
 
 .container1{
-
     height: 100vh; 
     border: 2px solid black; 
+    background-color: #173753;
+
+}
+
+h1 {
+    color: #7475e5; 
+    opacity: 0.7;
+    margin-left: 150px; 
+    margin-top: 50px;
+    
+}
+
+.container2{
+
+    height: 80vh; 
+    /* border: 2px solid black;  */
     background-color: #173753;
     display: flex; 
     justify-content: space-evenly; 
@@ -30,8 +49,12 @@
 
     height: 500px;
     width: 400px;
-    font-weight: bold; 
+    font-weight: light;  
+    text-align: justify; 
+    line-height: 1.4;
     border: 2px solid white; 
     color: #2892D7;
+    font-family: 'Raleway', sans-serif; 
+    
 
 }

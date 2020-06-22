@@ -19,7 +19,8 @@
   .sidenav a{
       padding-top: 20px; 
       text-decoration: none; 
-      color: #1D70A2
+      /* color: #1D70A2; */
+      color: #7475e5; 
 
   }
 

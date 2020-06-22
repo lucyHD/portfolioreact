@@ -1,23 +1,26 @@
 import React from 'react';
-import Nav from './components/Nav'; 
+import Nav from './components/Nav';
 import Sidenav from './components/Sidenav'
-import Main from './components/Main'
+import About from './components/About'
+import Current from './components/Current'
 import './App.css'
 
-const App = () =>{
-  return(
-    
+const App = () => {
+  return (
+
     <div>
-     
-        <div className="containerMain">
-         <Nav />  
-         <Main />  
-         <Sidenav />
-        </div>
-          <div>
-         
-          </div>
+
+      <div className="containerMain">
+        <a id="Home"><Nav /></a> 
+        <a id="About"><About /></a> 
+        <a id="Projects"><Current /></a>
+        <a id="Contact"><About /></a>  
+        <Sidenav />
     </div>
+    <div>
+
+    </div>
+    </div >
 
   )
 

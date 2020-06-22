@@ -3,6 +3,7 @@
 
 
 
+
 * {
     margin: 0px; 
     padding: 0px;
@@ -17,5 +18,6 @@
     flex-direction: column; 
     width: 100%;
     height: 100%;
+    background-color: #173753; 
    
 }

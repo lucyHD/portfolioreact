@@ -1,13 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Jost:wght@100;300&family=Montserrat:wght@100&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+
+
 .mainNav{
 
     display: flex; 
     justify-content: flex-end; 
     background-color: #173753; 
+    /* background-color: #7475e5; */
     padding-right: 10px; 
     /* if you do margin here, it would show white space, have to do padding */
-    font-family: 'Monserrat', sans-serif; 
+    font-family: 'Raleway', sans-serif;    
 }
 
 
@@ -46,7 +50,10 @@
 .listItems ul li a{
     display: inline; 
     text-decoration: none; 
-    color: #1D70A2
+    /* color: #f0f4fc */
+    color: #7475e5; 
+
+    /* color: #1D70A2 */
 }
 
 .listItems ul li a:hover{
