@@ -1,9 +1,10 @@
 import React from 'react';
 import Projects from './Projects'
+import './Current.css'
 
 const Current = () =>{
     return(
-        <div className="projects-container">
+        <div id="projects-container">
             <div>
             <h1> fssf</h1>
                 <Projects /> 

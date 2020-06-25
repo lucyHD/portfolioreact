@@ -16,7 +16,6 @@
     width: 1000px; 
     height: 100vh; 
     display: flex; 
-    justify-content: center;
     align-items: center; 
     background-color: #173753; 
  
@@ -25,7 +24,7 @@
 .project-box{
 
     display:flex; 
-    justify-content: space-around; 
+    justify-content:space-around;  
     flex-wrap: wrap; 
     background-color: #173753; 
 

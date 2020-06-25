@@ -5,11 +5,10 @@ const Contact = () =>{
     return(
         <div>
             <div className="container1">
-                <div className="picture1">
-                    picture here 
-                </div>
-                <div className="content1">
-                    <p> Aspiring software developer based in Manchester</p>
+             
+                <div className="contact-me">
+                    <p> contact meeee</p>
+                    <a href="mailto:lucyhelendonnelly@gmail.com"><button className="say-hi">SAY HI</button></a> 
                 </div>
             </div>
         </div>

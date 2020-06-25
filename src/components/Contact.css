@@ -18,22 +18,33 @@
     
 }
 
-.picture1{
+/* .picture1{
 
     height: 500px;
     width: 400px; 
     color: white; 
     border: 2px solid white; 
 
-}
+} */
 
-.content1{
+.contact-me{
 
     height: 500px;
-    width: 400px;
+    width: 700px;
     font-weight: bold; 
     border: 2px solid white; 
     color: #2892D7;
+    font-family: 'Raleway', sans-serif; 
+
+}
+
+
+.say-hi{
+    border: 1px solid  #7475e5;
+    background: none; 
+    width: 125px;
+    height: 50px;
+    color: #2892D7; 
     font-family: 'Raleway', sans-serif; 
 
 }

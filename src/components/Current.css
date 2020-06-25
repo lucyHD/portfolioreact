@@ -8,11 +8,14 @@
 
 
 
-.projects-container{
+#projects-container{
 
     height: 100vh; 
     border: 2px solid black; 
     background-color: #173753;
+    display:flex;
+    justify-content:center; 
+   
         
 }
 
