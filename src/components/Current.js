@@ -6,7 +6,7 @@ const Current = () =>{
     return(
         <div id="projects-container">
             <div>
-            <h1> fssf</h1>
+            <h1> Recent Projects </h1>
                 <Projects /> 
             </div>
         </div>
