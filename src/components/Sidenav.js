@@ -1,9 +1,11 @@
 import React from 'react'; 
 import './Sidenav.css'
-import { FaGithub } from 'react-icons/fa'
-import { FaRegEnvelopeOpen } from 'react-icons/fa'
-import { FaLinkedinIn  } from 'react-icons/fa'
-import { FaInstagram } from 'react-icons/fa'
+import { 
+    FaGithub,
+    FaRegEnvelopeOpen,
+    FaLinkedinIn,
+    FaInstagram
+ } from 'react-icons/fa'
 
 
 
