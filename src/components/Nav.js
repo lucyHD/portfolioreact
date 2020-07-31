@@ -13,7 +13,8 @@ class Nav extends Component {
         <div>
         <Headroom>
         <nav className="mainNav">
-            <img src={logo} alt="logopic" id="mainPic"/> 
+            <a href="#Home">
+            <img src={logo}  alt="logopic" id="mainPic" /></a> 
             <div className="listItems">
                 <ul>
               

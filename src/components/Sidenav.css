@@ -24,13 +24,13 @@
 
   }
 
+    .sidenav a:visited{
+    color:#2892D7;
+}
 
 .sidenav a:hover{
-    color:#2892D7
+    color:  #5521a8; 
 
 }
 
-
-.sidenav a:visited{
-    color:#2892D7
-}
+/* maybe change these colors so hover is brighter than standard link color */

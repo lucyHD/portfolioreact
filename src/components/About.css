@@ -48,13 +48,16 @@ h1 {
 .content1{
 
     height: 500px;
-    width: 400px;
+    width: 450px;
     font-weight: light;  
     text-align: justify; 
-    line-height: 1.4;
+    line-height: 1.7; 
+    /* height of line of each text - 1.5-2 is double spaced. Here it is set to 1.5 x size of the font (no unit needed for this, unless you want to specify one) */
+    padding: 10px; 
     border: 2px solid white; 
     color: #2892D7;
-    font-family: 'Raleway', sans-serif; 
+    font-family: 'Raleway', Arial, Helvetica, sans-serif; 
+    
     
 
 }
